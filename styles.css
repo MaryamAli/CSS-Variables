@@ -1,5 +1,21 @@
+:root {
+  --base:#DE0A1A;
+  --spacing: 10px;
+  --blur: 4px;
+}
+
 body {
   text-align: center;
+}
+
+img {
+  padding: var(--spacing);
+  background: var(--base);
+  filter: blur(var(--blur));
+}
+
+.hl {
+  color: var(--base);
 }
 
 .controls {
