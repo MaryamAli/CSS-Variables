@@ -8,8 +8,16 @@
   <body>
     <h1>Update <span class="hl">CSS Variables</span> with <span class="hl">JS</span></h1>
     <div class="controls">
-      
+      <label for="spacing">Spacing:</label>
+      <input id="range" type="range" name="spacing" min="10" max="200" value="10" data-sizing="px">
+
+      <label for="blue">Blur:</label>
+      <input id="blue" type="range" name="blur" min="0" max="25" value="4" data-sizing="px">
+
+      <label for="base">Base Color</label>
+      <input id="base" type="color" name="base" value="#DE0A1A">
     </div>
+
     <img src="https://unsplash.it/1200/800?image=429" alt="">
     <script>
       
